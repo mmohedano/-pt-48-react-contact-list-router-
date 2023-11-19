@@ -39,7 +39,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			// 	//reset the global store
 			// 	setStore({ demo: demo });
 			// }
-			addArtwork: (artwork) =>{
+			addArtwork: (artwork) => {
 			const store = getStore();
 			const artworkList = [...store.artworkList, artwork];
 			setStore({...store, artworkList});
