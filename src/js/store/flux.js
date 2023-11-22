@@ -39,11 +39,21 @@ const getState = ({ getStore, getActions, setStore }) => {
 			// 	//reset the global store
 			// 	setStore({ demo: demo });
 			// }
-			addArtwork: (newEntry) => {
+			addArtwork: ( newEntry) => {
 			const store = getStore();
 			const artworkList = [...store.artworkList, newEntry];
 			setStore({...store, artworkList});
-		}
+		},
+		   deleteArtwork: (id) => {
+			const store = getStore();
+			const updateArtworkList = store.artworkList.filter((_,i) => i !== id);
+			setStore({ ...store, artworkList: updateArtworkList });
+		}, 
+		    updateArtworkList: (artworkList) =>{
+				const store = getStore();
+				setStore({...store, artworkList});
+			}
+
 		}
 	};
 };

@@ -26,7 +26,7 @@ const AddArtwork = () => {
     <div className="input_main">
         <div className="list_return">
           <Link to="/">
-				<span className="btn btn-info btn-lg " href="#" role="button">
+				<span className="btn btn-warning btn-lg " href="#" role="button">
                 List of artworks
 				</span>
 		  </Link>
