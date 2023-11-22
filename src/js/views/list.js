@@ -8,7 +8,7 @@ const List = () => {
 
     return(<>
         <Link to="/create">
-				<span className="btn btn-primary btn-lg" href="#" role="button">
+				<span className="btn btn-info btn-lg" href="#" role="button">
                 Add new artwork
 				</span>
 		</Link>

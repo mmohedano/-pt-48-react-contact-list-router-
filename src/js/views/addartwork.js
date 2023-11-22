@@ -24,7 +24,7 @@ const AddArtwork = () => {
     };
     return(<>
        <Link to="/">
-				<span className="btn btn-primary btn-lg" href="#" role="button">
+				<span className="btn btn-info btn-lg " href="#" role="button">
                 List of artworks
 				</span>
 		</Link>
