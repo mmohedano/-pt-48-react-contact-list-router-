@@ -21,7 +21,7 @@
 //             } 
 //             return listItem;
 //         });
-//         actions.updateArtworkList(artworkList);
+//         actions.updateList(artworkList);
         
 //     }
 

@@ -49,7 +49,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			const updateArtworkList = store.artworkList.filter((_,i) => i !== id);
 			setStore({ ...store, artworkList: updateArtworkList });
 		}, 
-		    updateArtworkList: (artworkList) =>{
+		    updateList: (artworkList) =>{
 				const store = getStore();
 				setStore({...store, artworkList});
 			}
