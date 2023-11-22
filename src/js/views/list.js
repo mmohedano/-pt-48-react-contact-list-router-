@@ -14,7 +14,10 @@ const List = () => {
 		</Link>
    
     <ul>
-        {store.artworkList.map((listItem, index) => <li key={index}>{listItem}</li>)}
+        {store.artworkList.map((listItem, index) => <li key={index}>{listItem.artwork}</li>)}
+        {store.artworkList.map((listItem, index) => <li key={index}>{listItem.artist}</li>)}
+        {store.artworkList.map((listItem, index) => <li key={index}>{listItem.year}</li>)}
+        {store.artworkList.map((listItem, index) => <li key={index}>{listItem.location}</li>)}
     </ul>
     </>)
 }
