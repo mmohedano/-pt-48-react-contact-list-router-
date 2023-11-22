@@ -23,11 +23,14 @@ const AddArtwork = () => {
        
     };
     return(<>
-       <Link to="/">
+    <div className="input_main">
+        <div className="list_return">
+          <Link to="/">
 				<span className="btn btn-info btn-lg " href="#" role="button">
                 List of artworks
 				</span>
-		</Link>
+		  </Link>
+        </div>
         <div className="input_container">
          <label>Artwork</label>
          <input type="text" placeholder="Artwork" value={artwork} onChange={(e) =>setArtwork(e.target.value)}/>
@@ -38,6 +41,7 @@ const AddArtwork = () => {
          <label>Location</label>
          <input type="text" placeholder="Location"  value={location} onChange={(e) =>setLocation(e.target.value)}/>
          <button onClick={addArtwork}>Add artwork</button>
+    </div>
     </div>
     </>
     );
