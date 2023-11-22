@@ -20,6 +20,8 @@ input{
     border-radius: 5px;
     color: rgb(249, 26, 129);
     border-color: rgb(249, 26, 129);
+
+    
 }
 .input_main{
  display: flex;
@@ -32,4 +34,9 @@ input{
 label{
     margin-bottom: 10px;
     margin-top: 10px;
+    background-color: #30A8DD;
+    opacity: 90%;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
 }

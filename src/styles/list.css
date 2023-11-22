@@ -25,4 +25,7 @@ ul{
     border-color: rgb(249, 26, 129);
     border-radius: 5px;
     padding: 20px;
+    background-color: aliceblue;
+    align-items: center;
+    width: 150px;
 }
