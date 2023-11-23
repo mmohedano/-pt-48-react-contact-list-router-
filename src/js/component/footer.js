@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 export const Footer = () => (
 	<footer className="footer mt-auto py-3 text-center">
-		<p>
+		<h1 className="footer_logo">
 			ArtistAs
-		</p>
+		</h1>
 	</footer>
 );

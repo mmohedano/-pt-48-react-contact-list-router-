@@ -24,14 +24,14 @@ const List = () => {
     <ul>
         {store.artworkList.map((listItem, id) => <li key={id}>
             <div className="items_updated">
-            <span>{listItem.artwork}</span> 
+            <span>ArtworK: {listItem.artwork}</span> 
            
             <br />
-            <span>{listItem.artist}</span>
+            <span>Artist: {listItem.artist}</span>
             <br />
-            <span>{listItem.year}</span>
+            <span>Year: {listItem.year}</span>
             <br />
-            <span>{listItem.location}</span>
+            <span>Location: {listItem.location}</span>
             {/* <Link to={`/artwork/${id}`}>
 				<span className="btn btn-warning btn-lg " href="#" role="button">
                 Edit

@@ -6,6 +6,7 @@ import {createRoot} from 'react-dom/client'
 import "../styles/index.css";
 import "../styles/addartwork.css"
 import "../styles/list.css"
+import "../styles/footer.css"
 
 //import your own components
 import Layout from './layout.js'
